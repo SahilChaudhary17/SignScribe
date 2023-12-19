@@ -1,0 +1,15 @@
+1. Create a folder
+
+2. create virtual environment
+	python -m venv SignScribe
+
+3. Active using 
+	.\SignScribe\Scripts\activate
+
+4. Add jupyter kernel
+	python -m pip install --upgrade pip
+	pip install ipykernel
+	python -m ipykernel install --user 
+
+5. Initialize kernel
+	python -m ipykernel install --user --name=SignScribe
